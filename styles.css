@@ -1,0 +1,86 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: black;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+#main {
+   min-height: 100%;
+   overflow: hidden;
+   width: 600px; 
+   
+}
+.post{
+    background-color: white;
+    width: 600px;
+    height: 850px;
+    margin: auto;
+}
+.post-header{
+    
+    height: 100px; 
+    display:flex;
+    align-items: center; 
+    
+    
+}
+.logo1{
+    height: 60px;
+    width:65px;
+   
+    float:left;
+    
+}
+.logo2{
+    height:60px;
+    width: 75px;
+    text-align: center;
+    
+    padding-bottom:20px;
+    
+}
+.logo3{
+    height:60px;
+    width: 460px;
+   
+    margin-left:440px;
+}
+.post-img{
+   
+    height: 450px;
+    
+}
+.post-body{
+    
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.icon-bar{
+   
+    height: 50px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.likes{
+    
+    height: 50px;
+    
+}
+#html-logo{
+    max-height: 100%;
+}
+.fas fa-ellipsis-v{
+    height:100%;
+}
+.logo3 i{
+    font-size:60px;
+    margin-left:5px;
+}
+.icon-bar i{
+    margin:3px;
+    font-size:45px;
+}
